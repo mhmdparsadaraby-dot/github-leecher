@@ -65,7 +65,7 @@ jobs:
           FULL_ARCHIVE_NAME="${ARCHIVE_PREFIX}${FILENAME_BASE}"
 
           # --- مدیریت طول نام فایل ---
-          MAX_TOTAL_LEN=30
+          MAX_TOTAL_LEN=50
           CURRENT_LEN=${#FULL_ARCHIVE_NAME}
 
           if [[ $CURRENT_LEN -gt $MAX_TOTAL_LEN ]]; then
